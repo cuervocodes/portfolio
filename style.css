@@ -1,0 +1,18 @@
+/*
+
+COMMON
+
+*/
+
+body {
+    font-family: monospace,;
+}
+
+.font-primary {
+    color:#02DBE9
+}
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
