@@ -21,6 +21,15 @@ body {
     font-weight: bold;
 }
 
+.font-white {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
 /*
 About
 */
@@ -30,6 +39,7 @@ About
     max-width: 400px;
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 
 #about img{
@@ -87,7 +97,7 @@ PROJECTS
 
 */
 
-.container::before {
+.card:before {
     content: '';
     position: absolute;
     top: 0;
@@ -100,8 +110,9 @@ PROJECTS
     border-radius: 10px;
 }
 
-.container {
+.card {
     background: inherit;
+    justify-content: center !important;
 }
 
 #projects {
